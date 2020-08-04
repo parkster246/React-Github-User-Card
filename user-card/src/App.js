@@ -28,7 +28,14 @@ this.getGithubFollowers();
   };
   render() {
     const { user, followers } = this.state;
-    return 
+    return (
+      <div className='App'>
+        <h1>{user.login}'s Github!</h1>
+        {followers.map(follower => (
+          <h1>{follower.login} is a follower</h1>
+        ))}
+      </div>
+    )
   }
 };
 

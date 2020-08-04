@@ -1,18 +1,62 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  background:linear-gradient(to left, #2E294E, #003F91, #84A9C0, #b3CDD1, #DEFFFC );
+
+}
+#root {
+  border:3px solid purple;
+  padding: 100px;
+  background: linear-gradient(to right, #2E294E, #003F91, #84A9C0, #b3CDD1, #DEFFFC );
+  
 }
 
-
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App {
+  color:linear-gradient(to left, #2E294E, #003F91, #84A9C0, #b3CDD1, #DEFFFC);
+}
+/* form {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(207, 222, 235);
+  border: 5px solid rgb(209, 211, 235);
 }
+input {
+  margin: 5px;
+  border: 0px;
+  border-radius: 5px;
+  padding: 7px;
+  background-color: #f3f9fb;
+  color: black;
+  outline: none;
+} */
+
+/* ::placeholder {
+  color: black;
+}
+
+button {
+  border: 0px;
+  border-radius: 5px;
+  padding: 7px;;
+  outline: none;
+  background-color: black;
+  color:white;
+}   */
 
 
