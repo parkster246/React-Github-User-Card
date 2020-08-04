@@ -26,6 +26,8 @@ this.getGithubFollowers();
       followers: res.data
     });
   };
+  
+  
   render() {
     const { user, followers } = this.state;
     return (
